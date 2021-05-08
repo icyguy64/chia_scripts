@@ -4,7 +4,7 @@ sudo apt-get upgrade -y
 # Install Git
 sudo apt install git -y
 
-sudo mkfs -t ext4 /dev/nvmen1
+sudo mkfs -t ext4 /dev/nvme1n1
 sudo mkdir /plots
 
 sudo mkdir /temp
