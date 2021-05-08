@@ -4,6 +4,14 @@ sudo apt-get upgrade -y
 # Install Git
 sudo apt install git -y
 
+sudo mkfs -t ext4 /dev/nvmen1
+sudo mkdir /plots
+
+sudo mkdir /temp
+sudo mount /dev/nvme1n1 /plots/
+sudo mount /dev/nvme0n1 /temp/
+
+
 # Checkout the source and install
 git clone https://github.com/Chia-Network/chia-blockchain.git -b latest --recurse-submodules
 cd chia-blockchain
