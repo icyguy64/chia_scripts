@@ -10,3 +10,4 @@ git clone https://github.com/Chia-Network/chia-blockchain.git -b latest --recurs
 cd chia-blockchain
 sh install.sh
 sudo -s
+mv runme2.sh chia-blockchain/
