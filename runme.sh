@@ -30,5 +30,5 @@ sudo mount /dev/nvme8n1 /temp8/
 git clone https://github.com/Chia-Network/chia-blockchain.git -b latest --recurse-submodules
 cd chia-blockchain
 sh install.sh
-mv ./runme2.sh .
+mv ../runme2.sh .
 sudo -s
