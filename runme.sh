@@ -8,7 +8,7 @@ sudo mkdir /temp
 sudo mkdir /temp2
 sudo mount /dev/nvme2n1 /plots/
 sudo mount /dev/nvme1n1 /temp2/
-sudo mount /dev/nvme0n1 /temp/
+sudo mount /dev/nvme0n1p1 /temp/
 git clone https://github.com/Chia-Network/chia-blockchain.git -b latest --recurse-submodules
 cd chia-blockchain
 sh install.sh
